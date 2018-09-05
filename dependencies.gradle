@@ -43,7 +43,7 @@ ext {
             javaxInject:        "javax.inject:javax.inject:${javaxInjectVersion}",
             rxKotlin:           "io.reactivex.rxjava2:rxkotlin:${rxKotlinVersion}",
             kotlin:             "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}",
-            kotlinReflect:      "org.jetbrains.kotlin:kotlin-reflect:1.2.0"
+            kotlinReflect:      "org.jetbrains.kotlin:kotlin-reflect:1.2.51"
     ]
 
     domainTestDependencies = [
@@ -67,8 +67,7 @@ ext {
             retrofit:           "com.squareup.retrofit2:retrofit:${retrofitVersion}",
             retrofitConverter:  "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
             retrofitAdapter:    "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
-            kotlinReflect:      "org.jetbrains.kotlin:kotlin-reflect:1.2.0"
-
+            kotlinReflect:      "org.jetbrains.kotlin:kotlin-reflect:1.2.51"
     ]
 
     presentationTestDependencies = [
@@ -94,8 +93,7 @@ ext {
             retrofit:           "com.squareup.retrofit2:retrofit:${retrofitVersion}",
             retrofitConverter:  "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
             retrofitAdapter:    "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
-            kotlinReflect:      "org.jetbrains.kotlin:kotlin-reflect:1.2.0"
-
+            kotlinReflect:      "org.jetbrains.kotlin:kotlin-reflect:1.2.51"
     ]
 
     dataTestDependencies = [
@@ -118,8 +116,7 @@ ext {
             roomRuntime:        "android.arch.persistence.room:runtime:${roomVersion}",
             roomCompiler:       "android.arch.persistence.room:compiler:${roomVersion}",
             roomRxJava:         "android.arch.persistence.room:rxjava2:${roomVersion}",
-            kotlinReflect:      "org.jetbrains.kotlin:kotlin-reflect:1.2.0"
-
+            kotlinReflect:      "org.jetbrains.kotlin:kotlin-reflect:1.2.51"
     ]
 
     cacheTestDependencies = [
@@ -148,8 +145,7 @@ ext {
             retrofit:           "com.squareup.retrofit2:retrofit:${retrofitVersion}",
             retrofitConverter:  "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
             retrofitAdapter:    "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
-            kotlinReflect:      "org.jetbrains.kotlin:kotlin-reflect:1.2.0"
-
+            kotlinReflect:      "org.jetbrains.kotlin:kotlin-reflect:1.2.51"
     ]
 
     remoteTestDependencies = [
@@ -179,7 +175,8 @@ ext {
             timber:             "com.jakewharton.timber:timber:${timberVersion}",
             daggerSupport:      "com.google.dagger:dagger-android-support:${daggerVersion}",
             daggerProcessor:    "com.google.dagger:dagger-android-processor:${daggerVersion}",
-            glassfishAnnotation: "org.glassfish:javax.annotation:${glassfishAnnotationVersion}"
+            glassfishAnnotation: "org.glassfish:javax.annotation:${glassfishAnnotationVersion}",
+            kotlinReflect:      "org.jetbrains.kotlin:kotlin-reflect:1.2.51"
     ]
 
     mobileUiTestDependencies = [
